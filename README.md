@@ -5,7 +5,7 @@ This repossitory contains a deep learning model to predict  if a patient is suff
 The model backbone used here is resnet200d which has been used from timm repository <a href="https://github.com/rwightman/pytorch-image-models">timm pytorch models repository </a>, A bit about about why resent200d and why not other architectures like efficient nets , nfnets , vgg etc , resnet200d is supposed to perform better for xrays images and effnets and other perform poor for xrays images although i tried all the other architectures that i could possibly try and came to the coclusion that resnet200d indeed is the king for the backbone of my model the final layers are just Linear layers to classify into 3 categories i.e Covid , pneumonia and normal using crossentropyloss as loss function . I have used ptyorch as i find it more flexible and it suits my working type . A bit about dataset images were already downscaled to 256*256 pixels hence i trained my model with these images and surpsingly model perform way better than i expected , i have done some heavy augmentations using albmunetations libarary , i tired to use cutmix , mixup augmentations but they gave poor performance . Grad cam has also been added to see what model is seeing .
 
 # Metric used 
-Model performance has been calculated using following metrics .
+Model performance has been calculated using following metrics . Below are the model performance calculated from the test set.
 
 accuracy = 0.9909968262193147 , f1_score = 0.9801513517345098 , precision = 0.9891503234296438 , recall = 0.9722867684680466
 
