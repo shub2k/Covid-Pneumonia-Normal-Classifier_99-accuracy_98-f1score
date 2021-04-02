@@ -4,6 +4,11 @@ This repossitory contains a deep learning model to predict  if a patient is suff
 # Model 
 The model backbone used here is resnet200d which has been used from timm repository <a href="https://github.com/rwightman/pytorch-image-models">timm pytorch models repository </a>
 
+# Metric used 
+Model performance has been calculated using following metrics .
+
+accuracy = 0.9909968262193147 ,f1_score = 0.9801513517345098 , precision = 0.9891503234296438,recall = 0.9722867684680466
+
 # Datasets [ Citations / Credits ]
 Train dataset :- 
 The model is trained nd validated from these 3 datasets by stratifing the folds into 5 splits , the model is trained and validated using single fold and still perform excellent thanks to the datasets authors for providing these datasets
