@@ -7,12 +7,12 @@ The model backbone used here is resnet200d which has been used from timm reposit
 # Datasets [ Citations / Credits ]
 Train dataset :- 
 The model is trained nd validated from these 3 datasets by stratifing the folds into 5 splits , the model is trained and validated using single fold and still perform excellent thanks to the datasets authors for providing these datasets
-<a href="https://www.kaggle.com/tawsifurrahman/covid19-radiography-database">Train dataset 1 </a>
-<a href="https://www.kaggle.com/bachrr/covid-chest-xray">Train dataset 2 </a>
+<a href="https://www.kaggle.com/tawsifurrahman/covid19-radiography-database">Train dataset 1 </a> ,
+<a href="https://www.kaggle.com/bachrr/covid-chest-xray">Train dataset 2 </a> , 
 <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia">Train dataset 3 </a>
 
 Test dataset:-
 The model is tested from these 3 datasets 
-<a href="https://www.kaggle.com/nabeelsajid917/covid-19-x-ray-10000-images">Test dataset 1 </a>
-<a href="https://www.kaggle.com/khoongweihao/covid19-xray-dataset-train-test-sets">Test dataset 2 </a>
+<a href="https://www.kaggle.com/nabeelsajid917/covid-19-x-ray-10000-images">Test dataset 1 </a> , 
+<a href="https://www.kaggle.com/khoongweihao/covid19-xray-dataset-train-test-sets">Test dataset 2 </a> ,
 <a href="https://www.kaggle.com/tawsifurrahman/covid19-radiography-database">Test dataset 3 </a>
