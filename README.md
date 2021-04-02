@@ -1,0 +1,2 @@
+# Covid-Pneumonia-Normal-Classifier_99-accuracy_98-f1score
+This reposository contains a deep learning model to predict a patient is suffering from covid or pneumonia or the person doesn't suffer from any of those disease using there chest X ray ,  I have used classical transfer learning method with  a state of the art pretrained model ( resnet200d ) as a backbone and fine tuned its final layers . The model shows some excellent results with a 98% f1 score and 99% accuracy in a test set .   
