@@ -22,5 +22,8 @@ The model is tested from these 3 datasets
 <a href="https://www.kaggle.com/khoongweihao/covid19-xray-dataset-train-test-sets">Test dataset 2 </a> ,
 <a href="https://www.kaggle.com/tawsifurrahman/covid19-radiography-database">Test dataset 3 </a>
 
+# Model weights 
+I have uploaded model weights here as the model weights is quite big in size .
+
 # Request 
 If you like the work that i did here than please fork it and star it , it will motivate us developers to create more such models for the sake of our world . #lets_fight_together.
