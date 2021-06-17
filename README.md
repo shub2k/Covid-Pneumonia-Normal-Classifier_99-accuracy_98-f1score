@@ -10,7 +10,7 @@ Model performance has been calculated using following metrics . Below are the mo
 accuracy = 0.9909968262193147 , f1_score = 0.9801513517345098 , precision = 0.9891503234296438 , recall = 0.9722867684680466
 
 # Grad Cam
-<img src = " Covid-Pneumonia-Normal-Classifier_99-accuracy_98-f1score/image/grad_cam.png"/>
+<img src = "Covid-Pneumonia-Normal-Classifier_99-accuracy_98-f1score/image/grad_cam.png"/>
 
 # Datasets [ Citations / Credits ]
 Train dataset :- 
