@@ -9,6 +9,9 @@ Model performance has been calculated using following metrics . Below are the mo
 
 accuracy = 0.9909968262193147 , f1_score = 0.9801513517345098 , precision = 0.9891503234296438 , recall = 0.9722867684680466
 
+# Grad Cam
+<img src = " Covid-Pneumonia-Normal-Classifier_99-accuracy_98-f1score/image/grad_cam.png"/>
+
 # Datasets [ Citations / Credits ]
 Train dataset :- 
 The model is trained and validated from these 3 datasets by stratifing the folds into 5 splits , the model is trained and validated using single fold and still perform excellent thanks to the datasets authors for providing these datasets
